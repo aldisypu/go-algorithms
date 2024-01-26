@@ -6,6 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// https://www.codewars.com/kata/50654ddff44f800200000004
+
 func Multiply(a, b int) int {
 	return a * b
 }

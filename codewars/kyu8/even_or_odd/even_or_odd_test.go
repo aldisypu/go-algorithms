@@ -6,6 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// https://www.codewars.com/kata/53da3dbb4a5168369a0000fe
+
 func EvenOrOdd(number int) string {
 	if number%2 != 0 {
 		return "Odd"

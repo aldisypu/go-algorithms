@@ -6,6 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// https://www.codewars.com/kata/55685cd7ad70877c23000102
+
 func MakeNegative(x int) int {
 	if x < 0 {
 		return x
