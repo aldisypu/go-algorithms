@@ -7,6 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// https://www.codewars.com/kata/526571aae218b8ee490006f4
+
 func CountBits(n uint) int {
 	return bits.OnesCount(n)
 }
