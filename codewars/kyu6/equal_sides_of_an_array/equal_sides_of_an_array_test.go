@@ -6,6 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// https://www.codewars.com/kata/5679aa472b8f57fb8c000047
+
 func FindEvenIndex(arr []int) int {
 	total := 0
 	leftSum := 0
