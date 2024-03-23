@@ -7,9 +7,8 @@ import (
 )
 
 func isPalindrome(value string) bool {
-	rune := []rune(value)
-	for i := 0; i < len(rune)/2; i++ {
-		if string(rune[i]) != string(rune[len(rune)-i-1]) {
+	for i := 0; i < len(value)/2; i++ {
+		if value[i] != value[len(value)-i-1] {
 			return false
 		}
 	}
@@ -21,9 +20,8 @@ func isPalindromeRecursive(value string) bool {
 }
 
 func isPalindromeRecursiveHelper(value string, i int) bool {
-	rune := []rune(value)
-	if i < len(rune)/2 {
-		if string(rune[i]) != string(rune[len(rune)-i-1]) {
+	if i < len(value)/2 {
+		if value[i] != value[len(value)-i-1] {
 			return false
 		} else {
 			return isPalindromeRecursiveHelper(value, i+1)
